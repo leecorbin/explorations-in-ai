@@ -7,8 +7,6 @@ from datasets import load_dataset
 import soundfile as sf
 from IPython.display import Audio
 
-
-
 DEVICE = "cuda"
 
 classifier = pipeline("sentiment-analysis", device=DEVICE)
